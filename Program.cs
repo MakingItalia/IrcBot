@@ -7,8 +7,17 @@ namespace IrcBot
 {
     class Program
     {
+        /* ==========================================
+         * IrcBOT Engine
+         * By Thejuster ( Making Italia)
+         * Free and OpenSource Project
+         * ========================================= */
+
+
         static void Main(string[] args)
         {
+
         }
+
     }
 }
