@@ -1,0 +1,5 @@
+C:\Programmi\Git\IrcBot\bin\Debug\IrcBot.exe
+C:\Programmi\Git\IrcBot\bin\Debug\IrcBot.pdb
+C:\Programmi\Git\IrcBot\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Programmi\Git\IrcBot\obj\x86\Debug\IrcBot.exe
+C:\Programmi\Git\IrcBot\obj\x86\Debug\IrcBot.pdb
