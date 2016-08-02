@@ -79,6 +79,28 @@ namespace IrcBot
 
 
 
+        /// <summary>
+        /// Show a Information Message
+        /// </summary>
+        /// <param name="msg">Message</param>
+        public static void InfoMessage(string msg)
+        {
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+
+            Console.Write("( ? ) Info:");
+
+            DefaultColor();
+            Console.Write(" ");
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(msg);
+
+            DefaultColor();
+        }
+
+
+
 
     }
 }

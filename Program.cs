@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using IrcHelper;
 
 namespace IrcBot
 {
@@ -23,6 +24,9 @@ namespace IrcBot
             Credit(); //Show Credit
 
             IrcEngine.Connect();
+           // IrcHelper.IRC irc = new IRC("Dante", "prova");
+            //irc.Connect("fantasy.ircgate.it", 6669);
+
         }
 
 
