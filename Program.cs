@@ -15,13 +15,14 @@ namespace IrcBot
          * ========================================= */
 
 
+     
+
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
             Credit(); //Show Credit
 
-            Console.WriteLine("a");
-            Console.ReadKey();
+            IrcEngine.Connect();
         }
 
 

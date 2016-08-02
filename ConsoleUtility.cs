@@ -8,7 +8,7 @@ namespace IrcBot
     /// <summary>
     /// Console Utility for Drawing, Cursor, graphics and more
     /// </summary>
-    class ConsoleUtility
+    public class ConsoleUtility
     {
 
 
@@ -22,6 +22,63 @@ namespace IrcBot
             Console.BackgroundColor = Background;
             Console.ForegroundColor = ForeGround;
         }
+
+
+        /// <summary>
+        /// Set Default Color
+        /// </summary>
+        public static void DefaultColor()
+        {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+
+        /// <summary>
+        /// Show Waring Message
+        /// </summary>
+        /// <param name="msg">Message</param>
+        public static void WaringMessage(string msg)
+        {
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+
+            Console.Write(@"/!\ Warning:");
+
+            DefaultColor();
+
+            Console.Write(" ");
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(msg);
+
+            DefaultColor();
+        }
+
+
+
+        /// <summary>
+        /// Show Error Message
+        /// </summary>
+        /// <param name="msg">Message</param>
+        public static void ErrorMessage(string msg)
+        {
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Black;
+
+            Console.Write("[ ! ] Error:");
+
+            DefaultColor();
+            Console.Write(" ");
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(msg);
+            
+            DefaultColor();
+        }
+
+
+
 
     }
 }
